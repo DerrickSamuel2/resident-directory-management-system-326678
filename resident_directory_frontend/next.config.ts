@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // Authenticated and personalized experiences require dynamic rendering.
+  // Static export would break API routes, middleware, and cookie-based auth.
+  output: "standalone",
 };
 
 export default nextConfig;
