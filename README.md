@@ -1,1 +1,3 @@
-# resident-directory-management-system-326678
+# Project Repository
+
+This is the initial README file for the project.
